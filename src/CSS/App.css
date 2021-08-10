@@ -1,0 +1,5 @@
+.app{
+    height: 100vh;
+    max-width: 1440px;
+    background: linear-gradient(to top right, #333, #333 15%, #a9e322 35%, #000 60%, #f542a1 75%, #333 85%);
+}

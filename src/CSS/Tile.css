@@ -1,0 +1,30 @@
+.tile{
+    height: 120px;
+    width: 120px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.tile:hover{
+    background-color: rgba(23, 62, 72, 0.2);
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 360px;
+    height: 360px;
+    margin: 40px auto;
+}
+
+.board :not(:nth-child(3n)){
+    border-right: 1px solid white;
+}
+
+.board :not(:out-of-range()){
+    
+}
